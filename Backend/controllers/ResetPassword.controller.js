@@ -31,7 +31,7 @@ exports.resetPasswordToken = async (req, res) => {
       { new: true }
     );
     // Create Url link
-    const url = `https://studynotion-edtech-s450.onrender.com/update-password/${token}`;
+    const url = `https://studynotion-ashwinee.vercel.app/update-password/${token}`;
     // send mail
     await mailSender(
       email,
